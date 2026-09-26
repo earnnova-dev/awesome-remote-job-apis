@@ -5,6 +5,8 @@ A curated list of remote job board APIs and feeds — **free, no auth required**
 If you're building a job search tool, recruiter dashboard, or just want to track remote opportunities programmatically, this is your starting point.
 
 > **Looking for a ready-made tool?** Try [**GigWatch**](https://github.com/earnnova-dev/gigwatch) — a self-hosted CLI + dashboard that watches all of these sources, dedupes results, and AI-ranks them against your skill profile. Free, no account needed. [Live demo →](https://earnnova-dev.github.io/gigwatch/)
+>
+> **Prefer raw data over a dashboard?** [**remote-jobs-api**](https://github.com/earnnova-dev/remote-jobs-api) normalizes all of these boards into a single REST endpoint with one schema — `/v1/jobs` returns live jobs (with a `skills` fit-score and CSV/JSON output), so you can skip the scraping entirely. [Live API docs →](https://earnnova-dev.github.io/remote-jobs-api/)
 
 ## JSON APIs (no auth)
 
