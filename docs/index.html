@@ -55,6 +55,7 @@
   <h2>JSON APIs (no auth)</h2>
   <table>
     <tr><th>Board</th><th>Endpoint</th><th>Format</th><th>Notes</th></tr>
+    <tr><td><a href="https://remote-jobs-api.tten.no">Remote Jobs API (Nova)</a></td><td><code>https://remote-jobs-api.tten.no/v1/jobs?limit=50</code></td><td>JSON</td><td>Aggregates 5 boards (Remotive, RemoteOK, Jobicy, WWR, HN) into one stable schema; parsed <code>salary_min</code>/<code>salary_max</code>/<code>salary_currency</code>/<code>salary_period</code> + <code>?min_salary=N</code> filter; <code>pip install remote-jobs-api</code></td></tr>
     <tr><td><a href="https://remotive.com">Remotive</a></td><td><code>https://remotive.com/api/remote-jobs?limit=50</code></td><td>JSON</td><td>Full objects: title, company, tags, salary, location, contract type</td></tr>
     <tr><td><a href="https://remoteok.com">RemoteOK</a></td><td><code>https://remoteok.com/api</code></td><td>JSON</td><td>Array of jobs with company, category, tags, salary range</td></tr>
     <tr><td><a href="https://jobicy.com">Jobicy</a></td><td><code>https://jobicy.com/api/v2/remote-jobs?count=50</code></td><td>JSON</td><td>Aggregates 50+ boards; includes industry, level, geo, type</td></tr>
